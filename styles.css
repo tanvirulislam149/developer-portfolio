@@ -2,14 +2,14 @@
   margin: 0px;
   padding: 0px;
   font-family: "Open Sans", sans-serif;
-  background-color: white;
 }
 
 .nav_parent {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 90px;
+  padding: 10px 90px;
+  background-color: #fff8f3;
 }
 
 .title_r {
