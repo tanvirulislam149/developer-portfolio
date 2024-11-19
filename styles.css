@@ -32,7 +32,7 @@
   font-weight: bold;
 }
 
-.nav_link_parent > li > button {
+.primary_btn {
   border: none;
   background-color: #fd6e0a;
   color: white;
@@ -40,4 +40,54 @@
   font-size: 20px;
   font-weight: bold;
   border-radius: 5px;
+}
+
+/* Banner  */
+.banner_parent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff8f3;
+  background-image: url("images//header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.banner_text {
+  padding: 40px;
+}
+
+.hi_text {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.name_text {
+  font-size: 85px;
+  font-weight: 800;
+}
+
+.desc_text {
+  color: #757575;
+  padding: 20px 0px;
+}
+
+.banner_parent > div {
+  width: 40%;
+}
+.hardy_img {
+  text-align: right;
+}
+
+.main_cont {
+  padding: 50px 200px;
+}
+.what_i_do {
+  text-align: center;
+}
+
+.what_i_do > p {
+  color: #757575;
 }
