@@ -82,7 +82,7 @@
 }
 
 .main_cont {
-  padding: 50px 200px;
+  padding: 80px 250px;
 }
 .what_i_do {
   text-align: center;
@@ -90,4 +90,32 @@
 
 .what_i_do > p {
   color: #757575;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+  padding: 100px 0px;
+}
+
+.card_img,
+.card_title,
+.card_text {
+  padding-top: 20px;
+}
+
+.card_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_text {
+  color: #757575;
+  font-size: 16px;
+}
+
+.card {
+  box-shadow: 0px 10px 30px 0px rgba(211, 211, 211, 0.509);
+  padding: 20px 30px;
 }
